@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+.img{
+    transition: transform 0.4s ease;
+    transform-style: preserve-3d;
+}
+.img:hover{
+transform: rotateX(50deg);
+transform: rotateY(50deg);
+scale: 1.08;
+}
