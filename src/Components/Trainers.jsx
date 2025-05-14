@@ -4,7 +4,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import man2 from "../assets/img/InShot_20241031_213153573.jpg"
-import bgril from "../assets/img/bgril.jpg"
+import bgril from "/Kiki.JPG"
 
 
 gsap.registerPlugin(ScrollTrigger);
