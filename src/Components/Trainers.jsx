@@ -5,7 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import man2 from "../assets/img/InShot_20241031_213153573.jpg"
 import bgril from "../assets/img/bgril.jpg"
-import girl1 from "../assets/img/girl1.png"
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -14,20 +14,16 @@ const trainers = [
     name: 'Harish',
     photo: man2,
     desc: 'Strength & Conditioning Coach with 5+ years experience.',
-    contact: '+91 98765 43210'
+    contact: '+91 86809 02904'
   },
   {
-    name: 'Sneha Reddy',
+    name: 'Kiki',
     photo: bgril,
-    desc: 'Certified Yoga and Pilates Trainer.',
-    contact: '+91 91234 56789'
+    desc: 'Certified Yoga and Zumba Trainer.',
+    contact: '+91 99427 82740'
   },
-  {
-    name: 'Arun Prakash',
-    photo: girl1,
-    desc: 'Bodybuilding Coach & Nutrition Expert.',
-    contact: '+91 99887 77665'
-  }
+  
+    
 ];
 
 export const Trainers = () => {
