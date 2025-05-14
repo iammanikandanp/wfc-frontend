@@ -3,7 +3,7 @@ import { FaPhoneAlt } from 'react-icons/fa';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-import man2 from "../assets/img/man2.jpg"
+import man2 from "../assets/img/InShot_20241031_213153573.jpg"
 import bgril from "../assets/img/bgril.jpg"
 import girl1 from "../assets/img/girl1.png"
 
@@ -91,7 +91,7 @@ export const Trainers = () => {
         ref={cardRef}
         className="max-w-xl mx-auto bg-white rounded-2xl shadow-lg overflow-hidden transition-all duration-500"
       >
-        <img src={photo} alt={name} className="w-full h-[400px] object-cover" />
+        <img src={photo} alt={name} className="w-full h-[500px] object-cover" />
         <div className="p-6 text-center">
           <h3 className="text-2xl font-semibold mb-2">{name}</h3>
           <p className="text-gray-600 mb-4">{desc}</p>
