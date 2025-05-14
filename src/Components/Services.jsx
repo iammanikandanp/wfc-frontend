@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
+import therapy from '/Therapy.jpeg'
 gsap.registerPlugin(ScrollTrigger);
 
 const services = [
@@ -17,7 +17,7 @@ const services = [
   },
   {
     title: "Diet Plans",
-    img: "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&h=350",
+    img: therapy,
     desc: "Get personalized nutrition plans to support muscle gain or fat loss.",
   },
   {
