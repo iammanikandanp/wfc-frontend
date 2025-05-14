@@ -136,7 +136,7 @@ console.log("data",data)
                         </a>
                     </div>
                     <div className="flex items-center gap-4 contacts">
-    <FaMapMarkerAlt className="text-green-600" />
+    <FaMapMarkerAlt className="text-[#FF0000]"  />
     <a href="https://maps.app.goo.gl/gbr85iJvLHmQaahw6?g_st=aw" target="_blank" rel="noopener noreferrer" className='text-lg'>
         Tiruppur, Tamil Nadu 641666
     </a>
