@@ -17,12 +17,12 @@ const services = [
   },
   {
     title: "Diet Plans",
-    img: therapy,
+    img: "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
     desc: "Get personalized nutrition plans to support muscle gain or fat loss.",
   },
   {
     title: "Rehab Therapy",
-    img: "https://images.pexels.com/photos/4498478/pexels-photo-4498478.jpeg?auto=compress&cs=tinysrgb&h=350",
+    img: therapy,
     desc: "Recover safely from injuries with professional rehab support.",
   },
 ];
