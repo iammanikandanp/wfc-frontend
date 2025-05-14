@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import gsap from 'gsap';
-import { FaPhoneAlt, FaEnvelope, FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import { FaPhoneAlt, FaEnvelope, FaInstagram, FaWhatsapp,FaMapMarkerAlt } from 'react-icons/fa';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios';
@@ -135,6 +135,12 @@ console.log("data",data)
                             wfc_gym_tirupur
                         </a>
                     </div>
+                    <div className="flex items-center gap-4 contacts">
+    <FaMapMarkerAlt className="text-green-600" />
+    <a href="https://maps.app.goo.gl/gbr85iJvLHmQaahw6?g_st=aw" target="_blank" rel="noopener noreferrer" className='text-lg'>
+        Tiruppur, Tamil Nadu 641666
+    </a>
+</div>
                 </div>
 
 
