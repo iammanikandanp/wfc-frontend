@@ -11,7 +11,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const trainers = [
   {
-    name: 'Raj Kumar',
+    name: 'Harish',
     photo: man2,
     desc: 'Strength & Conditioning Coach with 5+ years experience.',
     contact: '+91 98765 43210'
