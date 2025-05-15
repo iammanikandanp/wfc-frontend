@@ -20,7 +20,7 @@ const trainers = [
     name: 'Kiki',
     photo: bgril,
     desc: 'Certified Yoga and Zumba Trainer.',
-    contact: '+91 99427 82740'
+    contact: '+91 99427 82756'
   },
   
     
