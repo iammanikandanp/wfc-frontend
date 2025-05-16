@@ -74,7 +74,7 @@ export const Memberships = () => {
               </p>
               <ul className="mt-4 sm:mt-6 space-y-2 text-black text-sm sm:text-base">
                 {plan.features.map((feature, i) => (
-                  <li key={i} className="flex items-center">
+                  <li key={i} className="flex items-center capitalize">
                     <span className="text-red-500 mr-2">✔</span>
                     {feature}
                   </li>
