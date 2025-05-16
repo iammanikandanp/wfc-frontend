@@ -13,19 +13,19 @@ export const Memberships = () => {
       name: 'Basic',
       price: '₹999',
       duration: '/month',
-      features: ['Gym Access', 'Locker Facility', '1 Trainer Session/Week'],
+      features: ['All basic features included', 'Strength training access', '1 Trainer Session/day'],
     },
     {
       name: 'Standard',
-      price: '₹1499',
+      price: '₹1399',
       duration: '/month',
-      features: ['Gym Access', 'Locker Facility', '3 Trainer Sessions/Week', 'Diet Plan'],
+      features: ['All standard features included', 'Strength training with cardio access', ' Included Boxing,Taekwondo,mix martial arts,yoga,zumba access', 'One training session/day'],
     },
     {
       name: 'Premium',
       price: '₹1999',
       duration: '/month',
-      features: ['All Standard Features', 'Unlimited Trainer Access', 'Steam & Spa', 'Personalized Coaching'],
+      features: ['All Premium features included', 'Rehab &Recovery Therapy access', 'Customized workout & diet plan access', 'Personalized coaching access Included ','2 Training session/day'],
     },
   ];
 
