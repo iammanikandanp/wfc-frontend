@@ -35,7 +35,7 @@ export const Navbar = () => {
                 <a href="#membership">Membership</a>
               </li>
               <li className='text-white hover:text-red-500 max-[600px]:hidden'>
-                <a href="#FAQ">FAQ</a>
+                <a href="#faq">FAQ</a>
               </li>
               <li className='text-white hover:text-red-500 max-[600px]:hidden'>
                 <a href="#contact">Contact</a>
@@ -63,7 +63,7 @@ export const Navbar = () => {
             <a href="#membership" onClick={toggleClose} className='cursor-pointer text-left w-full py-1 block hover:text-red-500'>Membership</a>
           </li>
           <li className='px-4'>
-            <a href="#FAQ" onClick={toggleClose} className='cursor-pointer text-left w-full py-1 block hover:text-red-500'>FAQ</a>
+            <a href="#faq" onClick={toggleClose} className='cursor-pointer text-left w-full py-1 block hover:text-red-500'>FAQ</a>
           </li>
           <li className='px-4'>
             <a href="#contact" onClick={toggleClose} className='cursor-pointer text-left w-full py-1 block hover:text-red-500'>Contact</a>
