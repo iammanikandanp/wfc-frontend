@@ -13,13 +13,13 @@ export const Memberships = () => {
       name: 'Basic',
       price: '₹999',
       duration: '/month',
-      features: ['All basic features included', 'Strength training access', '1 Trainer Session/day'],
+      features: ['All basic features included', 'Strength training access', 'One training Session/day'],
     },
     {
       name: 'Standard',
       price: '₹1399',
       duration: '/month',
-      features: ['All standard features included', 'Strength training with cardio access', ' Included Boxing,Taekwondo,mix martial arts,yoga,zumba access', 'One training session/day'],
+      features: ['All standard features included', 'Strength training with cardio access', ' Included ( Boxing, Taekwondo, mix martial arts, yoga, zumba ) access', 'One training session/day'],
     },
     {
       name: 'Premium',
